@@ -1,7 +1,6 @@
 #include<studio.h>
 /**
- * main - Entry point
- *
+ * main - entry point
  * Return: always 0
  */
 int main(void)
