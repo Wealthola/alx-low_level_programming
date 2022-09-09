@@ -1,7 +1,8 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
-/** main - print the last digit of the random
+/**
+ * main - print the last digit of the random
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative"
  * Return: 0
