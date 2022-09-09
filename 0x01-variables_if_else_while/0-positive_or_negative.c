@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include<stdio.h>
-/** main - assign a random number to int n everytime
- * it executes, and print it
+/** main - print if the number is positive, zero, or negative
+ * description: using the main function
+ * this program prints "Programming is positive, zero, or negative"
  * Return: always 0
  */
 int main(void)
