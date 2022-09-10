@@ -7,11 +7,11 @@ int main(void)
 {
 	int i, j, k;
 
-	for (i = 36; i	< 50)
+	for (i = 36; i	< 50; i++)
 	{
-		for (j = 37; j < 50)
+		for (j = 37; j < 50; j++)
 		{
-			for (k = 38; k < 50)
+			for (k = 38; k < 50; k++)
 			{
 				if (j > i && i > k)
 				{
