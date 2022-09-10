@@ -10,10 +10,10 @@ int main(void)
 	i = 50;
 	d = 50;
 
-	while(d < 62)
+	while (d < 62)
 	{
 		i = 50;
-		while(i < 62)
+		while (i < 62)
 		{
 			if (d != i && d < i)
 			{
