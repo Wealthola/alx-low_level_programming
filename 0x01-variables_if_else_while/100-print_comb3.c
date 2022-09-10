@@ -7,19 +7,19 @@ int main(void)
 {
 	int i, d;
 
-	i = 50;
-	d = 50;
+	i = 48;
+	d = 48;
 
-	while (d < 62)
+	while (d < 58)
 	{
-		i = 50;
-		while (i < 62)
+		i = 48;
+		while (i < 58)
 		{
 			if (d != i && d < i)
 			{
 				putchar(d);
 				putchar(i);
-				if (i == 61 && d == 60)
+				if (i == 57 && d == 56)
 				{
 					break;
 				}
