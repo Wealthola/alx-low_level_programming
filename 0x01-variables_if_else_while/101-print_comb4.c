@@ -9,18 +9,18 @@ int main(void)
 	int j;
 	int k;
 
-	for (i = 36; i	<= 50; i++)
+	for (i = 0; i	<= 9; i++)
 	{
-		for (j = 37; j <= 50; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			for (k = 38; k <= 50; k++)
+			for (k = 0; k <= 0; k++)
 			{
 				if (k > j && j > i)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					if (i != 47 || j != 49 || k != 50)
+					if (i != 6 || j != 7 || k != 8)
 					{
 						putchar(',');
 						putchar(' ');
