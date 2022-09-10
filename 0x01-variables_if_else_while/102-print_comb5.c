@@ -8,9 +8,9 @@ int main(void)
 	int i, e;
 	int a, b, c, d;
 
-	for(i = 0; i < 100; i++)
+	for (i = 0; i < 100; i++)
 	{
-		a = i / 10; 
+		a = i / 10;
 		b = i % 10;
 
 		for (e = 0; e < 100; e++)
