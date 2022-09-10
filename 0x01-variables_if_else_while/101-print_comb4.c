@@ -5,20 +5,22 @@
  */
 int main(void)
 {
-	int i, j, k;
-/**/
-	for (i = 36; i	< 50; i++)
+	int i;
+	int j;
+	int k;
+
+	for (i = 36; i	<= 50; i++)
 	{
-		for (j = 37; j < 50; j++)
+		for (j = 37; j <= 50; j++)
 		{
-			for (k = 38; k < 50; k++)
+			for (k = 38; k <= 50; k++)
 			{
 				if (k > j && j > i)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
-					if (i != 47 || j != 49)
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+					if (i != 47 || j != 49 || k != 50)
 					{
 						putchar(',');
 						putchar(' ');
