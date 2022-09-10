@@ -5,16 +5,15 @@
  */
 int main(void)
 {
-	char ch = 'a'
-		/***/
-		;while (ch <= 'z');
+	int i;
+
+	for (i = 97; i < 123; i++)
+	{
+		if (i != 101 && i != 113)
 		{
-			if (ch != 'e' && ch != 'q')
-			{
-				putchar(ch);
-			}
-			ch++;
+			putchar(i);
 		}
+	}
 	putchar('\n');
-		return (0);
+	return (0);
 }
