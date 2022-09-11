@@ -5,30 +5,24 @@
  */
 int main(void)
 {
-	int i, d;
+	int up = 0;
+	int down = 1;
 
-	i = 48;
-	d = 48;
-
-	while (d < 58)
+	while (up < 10)
 	{
-		i = 48;
-		while (i < 58)
+		while (down < 10)
 		{
-			if (d != i && d < i)
-			{
-				putchar(d);
-				putchar(i);
-				if (i == 57 && d == 56)
+				putchar(48 + up);
+				putchar(48 + down);
+				if (up != 10 - 2)
 				{
-					break;
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
-			}
-			d++;
+				right++;
 		}
-		i++;
+			left++;
+			right + left + 1;
 	}
 	putchar('\n');
 	return (0);
