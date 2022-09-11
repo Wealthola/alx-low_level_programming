@@ -5,28 +5,32 @@
  */
 int main(void)
 {
-	int i;
-	int j;
-	int k;
+	int left = 0;
+	int mid = 1;
+	int right = 2;
 
-	for (i = 0; i	<= 9; i++)
+	while (left < 10)
 	{
-		for (j = 0; j <= 9; j++)
+		while (mid < 10)
 		{
-			for (k = 0; k <= 0; k++)
+			while (right < 10)
 			{
-				if (k > j && j > i)
-				{
-					putchar(i + '0');
-					putchar(j + '0');
-					putchar(k + '0');
-					if (i != 6 || j != 7 || k != 8)
+					putchar(48 + left);
+					putchar(48 + mid);
+					putchar(48 + right);
+					if (lef != 10 - 3)
 					{
 						putchar(',');
 						putchar(' ');
 					}
-				}
+					right++
 			}
+			mid++;
+			right = mid + 1;
+		}
+		left++;
+		mid = left + 1;
+		right = mid + 1;
 		}
 	}
 	putchar('\n');
