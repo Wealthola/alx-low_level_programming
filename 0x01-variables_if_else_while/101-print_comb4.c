@@ -18,12 +18,12 @@ int main(void)
 					putchar(48 + left);
 					putchar(48 + mid);
 					putchar(48 + right);
-					if (lef != 10 - 3)
+					if (left != 10 - 3)
 					{
 						putchar(',');
 						putchar(' ');
 					}
-					right++
+					right++;
 			}
 			mid++;
 			right = mid + 1;
@@ -31,7 +31,6 @@ int main(void)
 		left++;
 		mid = left + 1;
 		right = mid + 1;
-		}
 	}
 	putchar('\n');
 	return (0);
