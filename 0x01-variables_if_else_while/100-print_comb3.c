@@ -19,10 +19,10 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				right++;
+				down++;
 		}
-			left++;
-			right + left + 1;
+			up++;
+			down = up + 1;
 	}
 	putchar('\n');
 	return (0);
