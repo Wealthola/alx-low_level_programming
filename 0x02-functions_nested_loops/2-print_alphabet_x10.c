@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  * void print_alphabet_x10(void) - function to print alphabet x10
  * Return: 0
