@@ -5,12 +5,7 @@
  */
 int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
+	print_alphabet();
 	_putchar('\n');
 	return (0);
 }
