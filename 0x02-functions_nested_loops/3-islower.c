@@ -5,7 +5,6 @@
  */
 int _islower(int c)
 {
-	int c = 0;
 	if  (c >= 'a' && c <= 'z')
 	{
 		return (1);
