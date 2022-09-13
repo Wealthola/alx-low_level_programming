@@ -5,14 +5,15 @@
  */
 int main(void)
 {
-	char yes[] = "_putchar";
-	int d = 0;
-	
-	while (d < (int)sizeof(yes) - 1)
-	{
-		_putchar(yes[d]);
-		d++;
-	}
+	_putchar("_")'
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
 	_putchar('\n');
+
 	return (0);
 }
