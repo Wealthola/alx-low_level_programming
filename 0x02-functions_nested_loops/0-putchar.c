@@ -11,7 +11,7 @@ int main(void)
 	while (d < (int)sizeof(yes) - 1)
 	{
 		_putchar(yes[d]);
-		d++
+		d++;
 	}
 	_putchar('\n');
 	return (0);
