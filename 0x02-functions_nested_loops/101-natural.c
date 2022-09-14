@@ -1,20 +1,18 @@
 #include<stdio.h>
 /**
- * main - sum of multiple of 3 or 5
+ * main - sum of multiple of 3 and 5
  * Return: return (0)
  */
 int main(void)
 {
-	int sum;
-	long int i = 0;
+	int x = 1024, y, sum = 0;
 
-	while (i < 1024)
+	for (y = 0; y < x; y++)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		if ((y % 3 == 0) || (y % 5 == 0))
 		{
-			sum += i;
-		}
-		i++;
+			sum = sum + y;
+		
 	}
 	printf("%d\n", sum);
 	return (0);
