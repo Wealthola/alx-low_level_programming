@@ -1,17 +1,15 @@
 #include "main.h"
 /**
- * void print_alphabet_x10(void) - function to print alphabet x10
+ * print_alphabet_x10(void) - function to print alphabet x10
  * Return: 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	char c, i;
-	for (i = 0; i <= 9; i++)
+	int i = 0;
+	while (1 < 10)
 	{
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
+		print_alphabet();
+		i++;
 	}
+		_putchar('\n');
 }
