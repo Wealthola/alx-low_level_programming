@@ -5,15 +5,28 @@
  */
 int main(void)
 {
-	long int i, x = 1, y = 2, sum = 0;
-	for (i = 0; i < 49; i++)
+	int n = 0;
+	long int tmp;
+	long int a, b, sum;
+
+	a = 1;
+	b = 2;
+
+	while (n < 50 - 2)
 	{
-		printf("%ld\n", x);
-		sum = x + y;
-		x = y;
-		y = sum;
-		if (i == 48)
-			printf("%ld\n", x);
+		tmp = a + b;
+		a = b;
+		b = tmp;
+		if (tmp % 2 == 0)
+		{
+			sum += tmp;
+		}
+		if (tmp > 4000000)
+		{
+			 break;
+		}
+		n++;
 	}
+	printf("%ld\n", sum);
 	return (0);
 }
