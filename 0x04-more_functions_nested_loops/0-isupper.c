@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _isdigit - checks whether digit or not
+ * _isupper - checks for uppercase
  * @c: argument
  * Return: 0 or 1
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
