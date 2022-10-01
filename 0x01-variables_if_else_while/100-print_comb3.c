@@ -10,7 +10,7 @@ int main(void)
 
 	while (up < 10)
 	{
-		while (down < 16)
+		while (down < 10)
 		{
 				putchar(48 + up);
 				putchar(48 + down);
