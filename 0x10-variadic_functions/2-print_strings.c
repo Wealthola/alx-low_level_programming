@@ -18,7 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(Majek, n);
 	for (; Olaitan < n; Olaitan++)
 	{
-		Wealth = va_arg(Wealth, char*);
+		Wealth = va_arg(Majek, char*);
 		if (Wealth == NULL)
 			printf("(nil)");
 		else
